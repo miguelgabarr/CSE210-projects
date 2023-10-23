@@ -92,9 +92,7 @@ class Program
                 case 2:
                     selectedActivity = new ReflectionActivity(0); // Duration not used initially
                     break;
-                case 3:
-                    // Add cases for other activities if needed
-                    break;
+            
                 case 4:
                     Console.WriteLine("Exiting program. Goodbye!");
                     return;
